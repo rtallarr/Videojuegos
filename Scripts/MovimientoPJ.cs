@@ -10,7 +10,7 @@ public class MovimientoPJ : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        print("Probando GITHUB")
     }
 
     // Update is called once per frame
