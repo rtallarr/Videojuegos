@@ -6,22 +6,19 @@ using UnityEngine.UI;
 public class ScoreCanvas : MonoBehaviour
 {
     public float score;
-    Text scoreText;
+    public float multiplier;
+    public Text scoreText;
 
     // Start is called before the first frame update
     void Start()
     {
-        scoreText = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<Text>();
+        multiplier = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    public void UpdateScoreText()
-    {
-        scoreText.text = "Score: " + score.ToString();
+        score += Time.deltaTime * multiplier;
+        scoreText.text = "Score: " + Mathf.Round(score);
     }
 }
