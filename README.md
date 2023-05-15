@@ -17,14 +17,13 @@ Por determinar
 
 ### Core Game:
 - [x] Contador de puntaje (Rodrigo)
-- [ ] Definir comportamiento en bordes de la pantalla (borde periódico?) (Joaquin)
+- [ ] Definir comportamiento en bordes de la pantalla (Fin juego o cambiar dirección rotación)
 
 ### Importantes
 - [ ] Hacer distintos tipos de spawners/enemigos (Anibal)
 - [ ] Hacer que los spawners/enemigos vayan cambiando a medida que avanza el juego (Anibal)
-- [ ] Hacer powerups y powerdowns que se recogen al hacer que pasen entre las pelotitas
 - [ ] restart al perder
-- [ ] tener vidas (?)
+- [ ] barra de vida
 
 ### Menos importantes
 - [ ] Hacer menú principal
