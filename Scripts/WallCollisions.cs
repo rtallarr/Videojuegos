@@ -15,7 +15,7 @@ public class WallCollisions : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        if (collision.gameObject.tag == "Proyectil")
+        if (collision.gameObject.tag == "FireProjectile" || collision.gameObject.tag == "WaterProjectile")
         {
             Destroy(collision.gameObject);
         }
