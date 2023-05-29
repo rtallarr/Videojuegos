@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     public float maxHealth;
     public float currentHealth;
 
+    public ScoreCanvas scoreCanvas;
+
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -18,7 +20,7 @@ public class Player : MonoBehaviour
     {
         sentido = 1;
         rotationSpeed = 150f;
-        movSpeed = 0.05f;
+        movSpeed = 0.03f;
         maxHealth = 100f;
         currentHealth = maxHealth;
         healthBar.setMaxHealth(maxHealth);
@@ -39,7 +41,9 @@ public class Player : MonoBehaviour
         // Make the game object move in 2d with arrow keys with respect to the world
         transform.Translate(new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * movSpeed, Space.World);
         
-
+        if(scoreCanvas.score >= 40){
+            TakeDamage(0.1f * Time.deltaTime * scoreCanvas.score);
+        }
     }
 
     public void TakeDamage(float damage)
