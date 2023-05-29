@@ -12,24 +12,26 @@ Por determinar
 ## Cosas por hacer:
 
 ### Bugs:
-- [ ] Proyectiles chocan entre sí
-- [ ] no se están eliminando los Ayuda(Clone)
+- [x] Proyectiles chocan entre sí
+- [x] no se están eliminando los Ayuda(Clone)
 
 ### Core Game:
 - [x] Contador de puntaje (Rodrigo)
-- [ ] Definir comportamiento en bordes de la pantalla (Fin juego o cambiar dirección rotación)
+- [x] Definir comportamiento en bordes de la pantalla (Fin del juego)
 
 ### Importantes
-- [ ] Hacer distintos tipos de spawners/enemigos (Anibal)
-- [ ] Hacer que los spawners/enemigos vayan cambiando a medida que avanza el juego (Anibal)
-- [ ] restart al perder
-- [ ] barra de vida
+- [ ] sumar puntaje al comer cosas buenas con salud maxima
+- [x] Hacer distintos tipos de spawners/enemigos (Anibal)
+- [x] Hacer que los spawners/enemigos vayan cambiando a medida que avanza el juego (Anibal)
+- [x] restart al perder
+- [x] barra de vida
 
 ### Menos importantes
-- [ ] Hacer menú principal
+- [ ] Projectil que mata de una 
+- [x] Hacer menú principal
 - [ ] Hacer tutorial
 - [ ] Definir y avanzar en estética y lore del juego
-- [ ] Hacer pantalla de muerte
+- [x] Hacer pantalla de muerte
 - [ ] highscore system
 
 ### Posibles Power-ups:
